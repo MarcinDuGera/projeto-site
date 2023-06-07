@@ -59,7 +59,7 @@ body {
   .cta-button {
     display: block;
     width: 200px;
-    margin:  auto;
+    margin: 0;
     padding: 10px 20px;
     background-color: #333333;
     color: #ffffff;
@@ -82,26 +82,26 @@ body {
     background-color: #555555;
   }
   .product{
-    display: inline-block;
-    margin-left: 50px;
-    margin-bottom: 110px;
+    width: 50%;
+    flex-wrap: wrap;
+    
+  
   }
+  .product-grid{
+    margin-left: 340px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+  
+  
+  
   #frase{
     text-align: center;
   }
-  #tenis1{
-    margin-left: 150px;
-  }
   
-  #tenis2{
-    margin-left: 650px;
-  }
-  #tenis3{
-    margin-left: 150px;
-  }
-  #tenis4{
-    margin-left: 650px;
-  }
 
   .product > .cta-button{
  display: none;
