@@ -30,18 +30,19 @@ body {
     text-align: center;
   }
    #back1{
-    display: block;
+    display: flex;
     color: rgba(0, 0, 0, 0.747);
     font-size: 30px;
-    max-width: 150px;
+    max-width: 130px;
     background-color: #f7de05;
     height: 40px;
     margin-bottom: 10px;
     margin-left: 1680px;
-    text-align: center;
     text-decoration: none;
     border-radius: 4px;
-    padding-top: 8px;
+    justify-content: center;
+    
+    
   }
   h3{
     font-size: 25px;
@@ -52,20 +53,21 @@ body {
     width: 300px;
   }
   p {
-    text-align: left;
+    text-align: center;
     color: #666666;
   }
   
   .cta-button {
     display: block;
     width: 200px;
-    margin: 0;
+    margin: auto;
     padding: 10px 20px;
     background-color: #333333;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
     border-radius: 8px;
+    justify-content: center;
   }
   #ver{
 
@@ -82,18 +84,36 @@ body {
     background-color: #555555;
   }
   .product{
+    
     width: 50%;
     flex-wrap: wrap;
     
   
   }
   .product-grid{
-    margin-left: 340px;
+    
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     
+  }
+  #tenis1{
+    display: inline-block;
+    text-align: center;
+  }
+  #tenis2{
+    display: inline-block;
+    text-align: center;
+  }
+  #tenis3{
+    display: inline-block;
+    text-align: center;
+  }
+  #tenis4{
+    display: inline-block;
+    text-align: center;
   }
   
   
@@ -102,10 +122,9 @@ body {
     text-align: center;
   }
   
-
   .product > .cta-button{
- display: none;
-  }
-  .product:hover > .cta-button{
-    display: block;
-  }
+    display: none;
+     }
+     .product:hover > .cta-button{
+       display: block;
+     }
