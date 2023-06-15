@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="faleconosco.css">
+    <title>Fale conosco</title>
+    
+</head>
+<body>
+  <a href="site.html" class="back-button">
+    <img src="https://cdn-icons-png.flaticon.com/512/93/93634.png" alt="Voltar">
+  </a>
+    <section>
+        <h2>Contato</h2>
+        <form action="faleconosco.html" method="post"> 
+         <!--Autocomplete serve para não dar opções para os usúarios -->
+          <label>Nome</label>
+          <input type="text" nome="name" placeholder="Digite seu nome" autocomplete="off" required>
+          <label>Email</label>
+          <input type="email" nome="email" placeholder="Digite seu email" autocomplete="off" required>
+          <label>Mensagens</label>
+          <textarea name="Mensagens" cols="30" rows="4" placeholder="Digite sua mensagem" required></textarea>
+          <button type="submit"><a href="site.html">Enviar</a></button>
+        </form>
+      </section>  
+</body> 
+</html>
